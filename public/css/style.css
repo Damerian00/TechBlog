@@ -23,3 +23,13 @@ header, .project:not(:last-child) {
     margin-left: -5px;
   }
   
+  .blog-comment-form{
+    visibility: hidden;
+  }
+
+  .topper{
+    background-color: blue;
+    min-height: 3vh;
+  }
+
+  
