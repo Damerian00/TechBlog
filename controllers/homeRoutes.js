@@ -27,7 +27,7 @@ console.log(blogs);
   }
 });
 
-router.get('/', async (req, res) => {
+router.get('/dashboard', async (req, res) => {
   try {
     // Get all blogs and JOIN with user data
     const blogData = await Blog.findAll({
