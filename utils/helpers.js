@@ -15,5 +15,14 @@ module.exports = {
         return `<span for="img" aria-label="gear">🧮</span>`;
       }
     },
-  };
-  
+    iff: (user_id, comment_id, opts) => {
+      const bool = user_id == comment_id;
+      console.log("This is the user_id " + user_id);
+      console.log("This is the comment " + comment_id);
+      if (bool) {
+          return opts.fn(this);
+      } else {
+          return opts.inverse(this);
+      }
+  },
+    }
