@@ -20,6 +20,14 @@
   
 
   
-  document
-    .querySelector('.blog-list')
-    .addEventListener('click', delButtonHandler);
+  // document
+  //   .querySelector('.blog-list')
+  //   .addEventListener('click', delButtonHandler);
+    let deleteButton = document
+    .querySelectorAll('.blog-list');
+    if (deleteButton){
+      deleteButton.forEach(el => {
+        
+        el.addEventListener('click', delButtonHandler);
+      });
+    }

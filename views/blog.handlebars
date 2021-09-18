@@ -13,7 +13,7 @@
         <p>- {{comment.user.name}}, {{format_date comment.date_created}}</p>
         <h1 class='bottomer'></h1>
       </panel>
-      {{#iff user_id  comment.user_id}}
+      {{#iff userid  comment.user_id}}
         <button> Hi</button>
       {{/iff}}
     {{/each}}
