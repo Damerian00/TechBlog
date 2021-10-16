@@ -62,7 +62,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-  My work on this project was done on boththe front-end and back-end using sequelize, node.js, handlebars, mysql2, and some other varius libraries. It allows a user view blogs and comments as well as register for an account. Once registered they can log in to create new posts and add comments to their bl;og or other blogs. 
+  My work on this project was done on both the front-end and back-end using sequelize, node.js, handlebars, mysql2, and some other varius libraries. It allows a user view blogs and comments as well as register for an account. Once registered they can log in to create new posts and add comments to their bl;og or other blogs. 
 
 
 
